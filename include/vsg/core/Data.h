@@ -15,7 +15,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 #include <vsg/core/Object.h>
 #include <vsg/core/type_name.h>
 
-#include <vulkan/vulkan.h>
+#include <vsg/vulkan/vulkan.h>
 
 #include <vector>
 

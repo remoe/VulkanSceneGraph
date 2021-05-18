@@ -12,6 +12,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 </editor-fold> */
 
+#include <vsg/vulkan/vulkan.h>
 #include <vsg/vk/Device.h>
 #include <vsg/vk/Instance.h>
 

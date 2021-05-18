@@ -13,7 +13,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 </editor-fold> */
 
 #include <vsg/core/Object.h>
-#include <vulkan/vulkan.h>
+#include <vsg/vulkan/vulkan.h>
 
 #include <mutex>
 #include <vector>
