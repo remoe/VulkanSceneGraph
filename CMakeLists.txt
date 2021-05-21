@@ -102,9 +102,9 @@ if (DOXYGEN_FOUND)
 endif()
 
 # add clobber build target to clear all the non git registered files/directories
-add_custom_target(clobber
-    COMMAND git clean -d -f -x
-)
+# add_custom_target(clobber
+#     COMMAND git clean -d -f -x
+# )
 
 # automatically buil_all_h build target to generate the include/vsg/all.h from the headers in the include/vsg/* directories
 add_custom_target(build_all_h
