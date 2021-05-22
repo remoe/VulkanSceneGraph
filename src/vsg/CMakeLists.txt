@@ -347,7 +347,7 @@ if (glslang_FOUND)
     set(FIND_DEPENDENCY_GLSLANG "find_dependency(vsg_glslang)")
 endif()
 
-configure_file("vsgConfig.cmake.in" "${CMAKE_BINARY_DIR}/src/vsg/vsgConfig.cmake" @ONLY)
+configure_file("vsgConfig.cmake.in" "${CMAKE_BINARY_DIR}/lib/cmake/vsg/vsgConfig.cmake" @ONLY)
 
 # [==[
 install(EXPORT vsgTargets
